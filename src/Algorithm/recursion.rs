@@ -1,9 +1,5 @@
 
 
-// pub fn calculate() {
-//     F(n) = F(n-1) + F(n-2)
-// }
-
 pub fn recursion () {
 
 
@@ -11,6 +7,7 @@ pub fn recursion () {
 
 }
 
+//简单递归，斐波那契数列
 pub fn fibonacci(n: u32) -> u32 {
 
     if n <= 1{
