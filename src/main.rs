@@ -7,12 +7,13 @@ fn main() {
 
     println!("Hello, world!");
 
-    let mut arr = [3, 1, 1, 2, 1, 1, 0];
+    let mut arr = [3, 1, 1, 2, 1, 1, 0, 1];
     let arr_string = ["aaa", "bbb", "abnc", "ddd", "zzz"];
-    let result = bubble_sort(& arr_string);
     
+    let result = merge_sort(&arr);
+
     for i in result {
-        print!("{} ", i);
+        println!("{}", i);
     }
 
 
