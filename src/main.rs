@@ -4,6 +4,7 @@ use std::result;
 use Algorithm::binary_search::*; // Use the function directly if it's named `recursion`
 use Algorithm::sorting::*;
 
+
 fn main() {
 
 
